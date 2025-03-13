@@ -27,7 +27,7 @@ match comb:
             desconto = preço * 0.02
         else:
             desconto = preço * 0.04
-    case "g":
+    case "G":
         if litros <= 25:
             desconto = preço * 0.3
         else:
