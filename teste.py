@@ -27,17 +27,20 @@ match gaso:
         if litros <= 25:
             desconto = preco * 0.02
         else:
-            desconto = preco * 0.05
+            desconto = preco * 0.04
     case "G":
         if litros <= 25:
-            desconto = preco * 0.02
+            desconto = preco * 0.03
         else:
             desconto = preco * 0.05
     case "P":
         if litros <= 25:
-            desconto = preco * 0.02
+            desconto = preco * 0.04
         else:
-            desconto = preco * 0.05
+            desconto = preco * 0.06
+    case _:
+        print("Combustivel nao encontrado")
+        exit()
 
 
 
